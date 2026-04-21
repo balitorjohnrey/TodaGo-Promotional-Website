@@ -498,7 +498,7 @@
 <!-- NAV -->
 <nav>
   <a href="#" class="nav-logo">
-    <img src="logo.png" alt="TodaGo" style="height:85px; width:auto; object-fit:contain;">
+    <img src="logo.png" alt="TodaGo" style="height:75px; width:auto; object-fit:contain;">
     <span class="nav-logo-text">TodaGo</span>
   </a>
   <ul class="nav-links">
@@ -870,7 +870,7 @@
   <div class="footer-top">
     <div class="footer-brand">
       <a href="#" style="text-decoration:none; display:flex; align-items:center; gap:10px;">
-        <img src="logo.png" alt="TodaGo" style="height:85px; width:auto; object-fit:contain;">
+        <img src="logo.png" alt="TodaGo" style="height: 75px; width:auto; object-fit:contain;">
         <span style="font-size:22px; font-weight:800; color:#fff;">TodaGo</span>
       </a>
       <p>The Philippines' premier tricycle hailing platform — connecting communities through safe, reliable, and affordable transport.</p>
