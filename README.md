@@ -38,7 +38,7 @@
     backdrop-filter: blur(12px);
     padding: 0 5%;
     display: flex; align-items: center; justify-content: space-between;
-    height: 70px;
+    height: 80px;
     border-bottom: 1px solid rgba(245, 183, 49, 0.15);
   }
   .nav-logo { display: flex; align-items: center; gap: 10px; text-decoration: none; }
@@ -67,7 +67,7 @@
     background: linear-gradient(135deg, var(--navy-dark) 0%, var(--navy) 50%, #1E3A50 100%);
     display: flex; flex-direction: column; align-items: center; justify-content: center;
     text-align: center;
-    padding: 100px 5% 60px;
+    padding: 60px 5% 60px;
     position: relative;
     overflow: hidden;
   }
@@ -498,7 +498,7 @@
 <!-- NAV -->
 <nav>
   <a href="#" class="nav-logo">
-    <div class="nav-logo-icon">⚡</div>
+    <img src="logo.png" alt="TodaGo" style="height:85px; width:auto; object-fit:contain;">
     <span class="nav-logo-text">TodaGo</span>
   </a>
   <ul class="nav-links">
@@ -513,6 +513,7 @@
 
 <!-- HERO -->
 <section class="hero" id="home">
+  <img src="logo.png" alt="TodaGo Logo" style="height:200px; width:auto; object-fit:contain; margin-top:0; margin-bottom:10px; filter:drop-shadow(0 12px 32px rgba(245,183,49,0.5));">
   <div class="hero-badge">
     <span class="hero-badge-dot"></span>
     Now Live in Davao Region
@@ -658,7 +659,7 @@
           <div class="phone-screen-badge">TODA</div>
         </div>
         <div style="margin-top:14px; background:var(--gold); border-radius:10px; padding:10px; text-align:center;">
-          <div style="font-size:12px; font-weight:700; color:var(--navy-dark);">⚡ Book Juan R.</div>
+          <div style="font-size:12px; font-weight:700; color:var(--navy-dark);">Book Juan R.</div>
           <div style="font-size:10px; color:var(--navy); margin-top:2px;">Fare: ₱35 · Cash / GCash</div>
         </div>
       </div>
@@ -714,7 +715,7 @@
           </div>
         </div>
         <div class="driver-benefit">
-          <div class="driver-benefit-icon">⚡</div>
+          <div class="driver-benefit-icon">🔄</div>
           <div>
             <h4>Smart Dispatch</h4>
             <p>Get matched with the nearest passengers automatically. Less idle time, more productive trips per day.</p>
@@ -783,7 +784,7 @@
           <div class="payment-method-tag">Instant Pay</div>
         </div>
         <div class="payment-method">
-          <div class="payment-method-icon">⚡</div>
+          <div class="payment-method-icon" style="display:flex;align-items:center;justify-content:center;"><img src="logo.png" alt="TodaGo" style="width:32px;height:32px;object-fit:contain;"></div>
           <div class="payment-method-name">TodaGo Wallet</div>
           <div class="payment-method-tag">Earn Rewards</div>
         </div>
@@ -868,9 +869,9 @@
 <footer>
   <div class="footer-top">
     <div class="footer-brand">
-      <a href="#" class="nav-logo" style="text-decoration:none;">
-        <div class="nav-logo-icon">⚡</div>
-        <span class="nav-logo-text">TodaGo</span>
+      <a href="#" style="text-decoration:none; display:flex; align-items:center; gap:10px;">
+        <img src="logo.png" alt="TodaGo" style="height:85px; width:auto; object-fit:contain;">
+        <span style="font-size:22px; font-weight:800; color:#fff;">TodaGo</span>
       </a>
       <p>The Philippines' premier tricycle hailing platform — connecting communities through safe, reliable, and affordable transport.</p>
       <div class="footer-socials">
