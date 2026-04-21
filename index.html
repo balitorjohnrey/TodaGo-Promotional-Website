@@ -57,7 +57,7 @@
     background: var(--gold); color: var(--navy-dark);
     border: none; padding: 10px 24px; border-radius: 25px;
     font-family: 'Poppins', sans-serif; font-size: 14px; font-weight: 700;
-    cursor: pointer; transition: all 0.2s;
+    cursor: pointer; transition: all 0.2s; white-space: nowrap;
   }
   .nav-cta:hover { background: var(--gold-dark); transform: translateY(-1px); }
 
@@ -490,6 +490,13 @@
     .footer-top { grid-template-columns: 1fr; }
     .payment-methods { grid-template-columns: 1fr 1fr; }
     .toda-cards { grid-template-columns: 1fr; }
+    /* ── FIX: smaller nav CTA on mobile ── */
+    .nav-cta {
+      padding: 7px 12px;
+      font-size: 11px;
+      border-radius: 18px;
+    }
+    nav { height: 64px; }
   }
 </style>
 </head>
@@ -916,7 +923,6 @@
 </footer>
 
 <script>
-  // Smooth scroll for nav links
   document.querySelectorAll('a[href^="#"]').forEach(a => {
     a.addEventListener('click', e => {
       const target = document.querySelector(a.getAttribute('href'));
@@ -924,7 +930,6 @@
     });
   });
 
-  // Scroll reveal animation
   const observer = new IntersectionObserver((entries) => {
     entries.forEach(e => {
       if (e.isIntersecting) {
@@ -941,7 +946,6 @@
     observer.observe(el);
   });
 
-  // Nav background on scroll
   window.addEventListener('scroll', () => {
     const nav = document.querySelector('nav');
     nav.style.background = window.scrollY > 50
