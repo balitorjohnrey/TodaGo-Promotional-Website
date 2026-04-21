@@ -596,11 +596,6 @@
       <h3>TODA Membership</h3>
       <p>Only verified TODA-registered drivers can join TodaGo. LTFRB-compliant and association-backed for your peace of mind.</p>
     </div>
-    <div class="feature-card">
-      <div class="feature-icon">📦</div>
-      <h3>Pick-up Management</h3>
-      <p>Set custom pick-up points with pinpoint accuracy. Drivers know exactly where to meet you — no more confusion or delays.</p>
-    </div>
   </div>
 </section>
 
@@ -687,11 +682,6 @@
       <div class="toda-card-icon">🔒</div>
       <h3>Background Checked</h3>
       <p>All drivers undergo identity verification, license validation, and background screening to ensure passenger safety.</p>
-    </div>
-    <div class="toda-card">
-      <div class="toda-card-icon">🤝</div>
-      <h3>Association Backed</h3>
-      <p>Drivers are members of registered TODA associations — providing accountability, support, and community oversight.</p>
     </div>
     <div class="toda-card">
       <div class="toda-card-icon">📋</div>
@@ -842,53 +832,6 @@
         <div style="margin-top:14px; background:#e8f5e9; border-radius:10px; padding:10px 14px; display:flex; align-items:center; gap:8px;">
           <div style="font-size:16px;">✅</div>
           <div style="font-size:12px; color:#2e7d32; font-weight:600;">Paid via GCash · Instant</div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- TESTIMONIALS -->
-<section class="testimonials">
-  <div class="testimonials-header">
-    <div class="section-label">Testimonials</div>
-    <h2 class="section-title">What our riders <span>are saying</span></h2>
-    <p class="section-desc">Real stories from real commuters across the Davao Region.</p>
-  </div>
-  <div class="testimonials-grid">
-    <div class="testimonial-card">
-      <div class="testimonial-stars">★★★★★</div>
-      <div class="testimonial-quote">"</div>
-      <p class="testimonial-text">Finally! I no longer have to wave my hand for 20 minutes hoping a tricycle stops. TodaGo is a game-changer for my daily commute to work.</p>
-      <div class="testimonial-author">
-        <div class="testimonial-avatar">MA</div>
-        <div>
-          <div class="testimonial-name">Maria Aguilar</div>
-          <div class="testimonial-role">Office Worker, Davao City</div>
-        </div>
-      </div>
-    </div>
-    <div class="testimonial-card">
-      <div class="testimonial-stars">★★★★★</div>
-      <div class="testimonial-quote">"</div>
-      <p class="testimonial-text">As a driver, my income went up 30% in the first month. The performance dashboard helps me know exactly when to drive for maximum earnings.</p>
-      <div class="testimonial-author">
-        <div class="testimonial-avatar">JR</div>
-        <div>
-          <div class="testimonial-name">Juan Reyes</div>
-          <div class="testimonial-role">TODA Driver, Panabo City</div>
-        </div>
-      </div>
-    </div>
-    <div class="testimonial-card">
-      <div class="testimonial-stars">★★★★★</div>
-      <div class="testimonial-quote">"</div>
-      <p class="testimonial-text">The advance booking feature is perfect for my hospital appointments. I book the night before and my driver is always on time. So reliable!</p>
-      <div class="testimonial-author">
-        <div class="testimonial-avatar">RL</div>
-        <div>
-          <div class="testimonial-name">Rosa Lim</div>
-          <div class="testimonial-role">Patient, Tagum City</div>
         </div>
       </div>
     </div>
